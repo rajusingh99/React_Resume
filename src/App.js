@@ -37,22 +37,38 @@ function App() {
         showAlert("Light mode has been enabled", "success");
       }
     }
-  return (
+  // return (
+  //   <Router>
+  //     <div>
+  //       <Navbar toggleMode={toggleMode}/>
+  //       <Alert alert={alert}/>
+  //       <Routes>
+  //         <Route path="/" element={<Typography />} />  
+  //         <Route path="/about" element={<About />} />
+  //         <Route path="/apply" element={<Apply />} />
+  //         <Route path="/books" element={<Books />} />
+  //         <Route path="/register" element={<Register />} />
+  //         <Route path="/complex-form" element={<ComplexForm />} />
+  //       </Routes>
+  //     </div>
+  //   </Router>
+// );
+   
     <Router>
       <div>
         <Navbar toggleMode={toggleMode}/>
         <Alert alert={alert}/>
         <Routes>
-          <Route path="/" element={<Typography />} />  
-          <Route path="/about" element={<About />} />
-          <Route path="/apply" element={<Apply />} />
-          <Route path="/books" element={<Books />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/complex-form" element={<ComplexForm />} />
+          <Route path="React_Resume/" element={<Typography />} />  
+          <Route path="React_Resume/about" element={<About />} />
+          <Route path="React_Resume/apply" element={<Apply />} />
+          <Route path="React_Resume/books" element={<Books />} />
+          <Route path="React_Resume/register" element={<Register />} />
+          <Route path="React_Resume/complex-form" element={<ComplexForm />} />
         </Routes>
       </div>
     </Router>
-  );
+);
 }
 
 export default App;
