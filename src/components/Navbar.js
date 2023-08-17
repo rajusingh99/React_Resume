@@ -11,95 +11,38 @@ export default function Navbar(props) {
   };
 
   return (
-    // <div>
-    //       <nav className="navbar">
-    //           <div>
-    //             <div>
-    //                   <ul>
-    //                   <li className="logo-item">
-    //                     <Link to="/">
-    //                       Typography
-    //                     </Link>
-    //                   </li>
-
-    //                   <li>
-    //                     <Link to="/books">
-    //                           Books
-    //                       </Link>
-    //                   </li>
-
-                    
-    //                   <li>
-    //                     <Link to="/register">
-    //                             Register
-    //                         </Link>
-    //                   </li>
-
-    //                   <li>
-    //                     <Link to="/apply">
-    //                             Apply
-    //                         </Link>
-    //                     </li>
-
-    //                   <li>
-    //                     <Link to="/complex-form">
-    //                           Complex_Form
-    //                         </Link>
-    //                   </li>
-
-    //                   <li>
-    //                   <a href="/about" onClick={handleNavigation}>
-    //                       About
-    //                   </a>
-    //                     {/* <Link to="/about">
-    //                             About
-    //                         </Link> */}
-    //                     </li>
-                      
-    //                 </ul>
-                  
-    //                </div>
-                  
-    //           </div>
-    //       </nav>
-    //       <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
-    //                       <input className="form-check-input" onClick={props.toggleMode} type="checkbox" id="toggle" />
-    //                       <label  htmlFor="toggle" className="toggle-label" style={{display:'hidden'}}></label>
-    //                   </div>
-    // </div>
-
     <div>
           <nav className="navbar">
               <div>
                 <div>
                       <ul>
                       <li className="logo-item">
-                        <Link to="React_Resume/">
+                        <Link to="/">
                           Typography
                         </Link>
                       </li>
 
                       <li>
-                        <Link to="React_Resume/books">
+                        <Link to="/books">
                               Books
                           </Link>
                       </li>
 
                     
                       <li>
-                        <Link to="React_Resume/register">
+                        <Link to="/register">
                                 Register
                             </Link>
                       </li>
 
                       <li>
-                        <Link to="React_Resume/apply">
+                        <Link to="/apply">
                                 Apply
                             </Link>
                         </li>
 
                       <li>
-                        <Link to="React_Resume/complex-form">
+                        <Link to="/complex-form">
                               Complex_Form
                             </Link>
                       </li>
@@ -108,7 +51,7 @@ export default function Navbar(props) {
                       <a href="/about" onClick={handleNavigation}>
                           About
                       </a>
-                        {/* <Link to="React_Resume//about">
+                        {/* <Link to="/about">
                                 About
                             </Link> */}
                         </li>
@@ -124,5 +67,6 @@ export default function Navbar(props) {
                           <label  htmlFor="toggle" className="toggle-label" style={{display:'hidden'}}></label>
                       </div>
     </div>
+
   )
 }
