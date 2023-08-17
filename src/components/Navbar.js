@@ -80,7 +80,7 @@ export default function Navbar(props) {
                       </li>
 
                       <li>
-                        <Link to="/books">
+                        <Link to="React_Resume/books">
                               Books
                           </Link>
                       </li>
@@ -105,10 +105,10 @@ export default function Navbar(props) {
                       </li>
 
                       <li>
-                      <a href="React_Resume/about" onClick={handleNavigation}>
+                      <a href="/about" onClick={handleNavigation}>
                           About
                       </a>
-                        {/* <Link to="/about">
+                        {/* <Link to="React_Resume//about">
                                 About
                             </Link> */}
                         </li>
